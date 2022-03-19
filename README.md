@@ -3,7 +3,7 @@
 #portfoflio 
 
 > Setting up a portfolio andriod page.
-![screenshot](./photos/shot.png)
+![screenshot](./images/portfoliio..png)
 
 ## Built With
 
