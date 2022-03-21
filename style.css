@@ -1,0 +1,84 @@
+.header {
+  display: inline-flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.nav {
+  padding-right: 50px;
+  padding-top: 33px;
+  width: 17px;
+  padding-left: 20px;
+}
+
+.intro {
+  background-image: url(./images/Backgroung.png);
+  height: 772px;
+  margin: 0 8px;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-size: contain;
+}
+
+.sd {
+  color: green;
+  font-size: 40px;
+  padding-right: 20px;
+  font-family: 'Inter', sans-serif !important;
+  width: 327px;
+  text-align: center;
+}
+
+.h2 {
+  width: 130px;
+  height: 30px;
+  padding-top: 14px;
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #28352f;
+  padding-left: 24px;
+}
+
+.prg {
+  width: 327px;
+  height: 164px;
+  left: 24px;
+  top: 314px;
+  font-family: 'Inter', sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #172b4d;
+  padding-top: 20px;
+}
+
+ul.icon-list {
+  list-style: none;
+  display: inline-flex;
+  gap: 20px;
+  padding-left: 75px;
+}
+
+.dis {
+  position: absolute;
+  left: 43%;
+  right: 25%;
+  padding-top: 11%;
+  padding-bottom: 37.5%;
+}
+
+.h1 {
+  padding-top: 29px;
+  font-size: 40px;
+  width: 287px;
+  text-align: center;
+  font-family: 'inter', sans-serif !important;
+  padding-left: 12px;
+}
