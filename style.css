@@ -1,6 +1,3 @@
-.body {
-  justify-content: center;
-}
 
 .header {
   display: inline-flex;
@@ -254,7 +251,7 @@ ul.card-item {
   margin: 20px 100px;
 }
 
-.button-cont button {
+.potfolio-but {
   color: #fff;
   padding: 13px;
   background-color: #36b37f;
