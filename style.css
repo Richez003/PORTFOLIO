@@ -1,3 +1,4 @@
+/* stylelint-disable no-missing-end-of-source-newline */
 
 .header {
   display: inline-flex;
@@ -191,7 +192,7 @@ ul.card-item {
 }
 
 .potfolio-but {
-  color: #ffffff;
+  color: #fff;
   padding: 13px;
   background-color: #36b37f;
   border: 0;
@@ -253,7 +254,7 @@ ul.card-item {
 
 .card-lists {
   margin: 0;
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 1px;
   border-radius: 8px;
 }
@@ -326,7 +327,7 @@ ul.card-item {
 }
 
 .botton-con button {
-  color: #ffffff;
+  color: #fff;
   padding: 13px;
   background-color: #36b37f;
   border: 0;
@@ -417,7 +418,7 @@ ul.card-item {
   top: 0;
   bottom: 0;
   width: 300px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #d0d9d4;
   box-sizing: border-box;
   border-radius: 4px;
@@ -425,7 +426,7 @@ ul.card-item {
 
 .text {
   width: 304px;
-  background: #ffffff;
+  background: #fff;
   height: 100px;
   border-radius: 4px;
   padding: 20px;
@@ -439,7 +440,7 @@ ul.card-item {
 }
 
 .last-button button {
-  color: #ffffff;
+  color: #fff;
   padding: 13px;
   background-color: #36b37f;
   border: 0;
