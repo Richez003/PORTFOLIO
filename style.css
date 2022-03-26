@@ -116,15 +116,6 @@ ul.icon-list {
   font-size: 30px;
 }
 
-.placeholder1 {
-  background: #ebf0ee;
-  border: 1px solid #d0d9d4;
-  border-radius: 8px;
-  margin-top: 95px;
-  position: absolute;
-  top: 959px;
-}
-
 .card-list {
   width: 327px;
   height: 240px;
@@ -218,6 +209,7 @@ ul.card-item {
   position: relative;
   background: #ebf0ee;
   border-radius: 8px;
+  margin-bottom: 0;
 }
 
 .items ul {
@@ -278,33 +270,26 @@ ul.card-item {
 }
 
 .card-sections {
-  height: 959px;
-  padding-bottom: 100px;
-  padding-top: 100px;
-  margin-top: -345px;
+  margin-top: -230px;
   border-radius: 8px;
 }
 
 .pic3 {
   text-align: end;
   margin: -3%;
-  padding-right: 2px;
   position: relative;
 }
 
 .about-me h1 {
   text-align: center;
-  margin-top: -56px;
-  color: #172b4d;
-  display: flex;
-  padding-left: 60px;
+  margin-top: -60px;
+  font-size: 50px;
 }
 
 .about-me p {
   width: 351px;
   height: 189px;
-  left: 0;
-  top: 72px;
+  padding-left: 10px;
   font-style: normal;
   font-size: 20px;
   line-height: 32px;
@@ -313,7 +298,7 @@ ul.card-item {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: 24px 0;
+  margin: 20px 10px;
 }
 
 .bot-img {
