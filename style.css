@@ -1,3 +1,5 @@
+/* stylelint-disable no-missing-end-of-source-newline */
+
 .header {
   display: inline-flex;
   justify-content: space-between;
@@ -8,7 +10,7 @@
   padding-right: 50px;
   padding-top: 33px;
   width: 17px;
-  padding-left: 20px;
+  padding-left: 60px;
 }
 
 .intro {
@@ -70,7 +72,7 @@ ul.icon-list {
   position: absolute;
   left: 43%;
   right: 25%;
-  padding-top: 11%;
+  padding-top: 25%;
   padding-bottom: 37.5%;
 }
 
@@ -81,4 +83,389 @@ ul.icon-list {
   text-align: center;
   font-family: 'inter', sans-serif !important;
   padding-left: 12px;
+}
+
+.bg2 {
+  padding: 17px 28px;
+}
+
+.p4 {
+  padding-top: 80px;
+  font-size: 40px;
+  font-style: normal;
+  letter-spacing: 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.img5 {
+  position: absolute;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: dodgerblue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.card-list {
+  width: 327px;
+  height: 240px;
+}
+
+.stories {
+  width: 295px;
+  padding-left: 16px;
+  padding-top: 16px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #3a4a42;
+  margin: 16px 0;
+}
+
+.tech-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  height: auto;
+  flex-grow: 0;
+}
+
+ul.card-item {
+  list-style: none;
+}
+
+.holder ul {
+  list-style: none;
+  justify-content: left;
+  text-align: center;
+}
+
+.holder ul li {
+  background: #ebf0ee;
+  min-width: 75px;
+  align-items: center;
+  border-radius: 8px;
+  height: 32px;
+  justify-content: center;
+  padding-top: 10px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.button button {
+  display: flex;
+  flex-direction: row;
+  padding: 12px;
+  width: 122px;
+  height: 48px;
+  bottom: 8px;
+  justify-content: center;
+  color: #fff;
+  background: #36b37f;
+  border-radius: 4px;
+  align-items: center;
+  position: absolute;
+}
+
+.button {
+  justify-content: center;
+  align-items: center;
+  margin: 19px 100px;
+}
+
+.potfolio-but {
+  color: #fff;
+  padding: 13px;
+  background-color: #36b37f;
+  border: 0;
+  justify-content: center;
+  font-size: 17px;
+  border-radius: 8px;
+}
+
+.potfolio-but:hover {
+  background: #bfebca;
+  color: #fff;
+}
+
+.potfolio-but:active {
+  background: #008552;
+  color: #fff;
+}
+
+.potfolio-but:disabled {
+  background: #36b37f;
+  color: #fff;
+}
+
+.holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  height: 222px;
+  bottom: 0;
+  background: #fff;
+  border-radius: 8px;
+  position: relative;
+  top: 145px;
+}
+
+.placeholder {
+  height: 260px;
+  padding: 10px;
+  position: relative;
+  background: #ebf0ee;
+  border-radius: 8px;
+  margin-bottom: 0;
+}
+
+.items ul {
+  display: flex;
+  justify-content: center;
+  margin: 3px;
+  padding: 1px 9px;
+}
+
+.items ul li {
+  background-color: #ebf0ee;
+  list-style: none;
+  margin: 3px;
+  padding: 5px;
+}
+
+.card-lists {
+  margin: 0;
+  background-color: #fff;
+  padding: 1px;
+  border-radius: 8px;
+}
+
+.card-lists h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.button-cont {
+  align-items: center;
+  margin: 20px 100px;
+}
+
+.container-card {
+  border: 1px solid  #d0d9d4;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.card-sections h1 {
+  font-size: 50px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.indicator {
+  text-align: center;
+}
+
+.card-sections {
+  margin-top: -230px;
+  border-radius: 8px;
+  display: grid;
+}
+
+.pic3 {
+  text-align: end;
+  margin: -3%;
+  position: relative;
+}
+
+.about-me h1 {
+  text-align: center;
+  margin-top: -60px;
+  font-size: 50px;
+}
+
+.about-me p {
+  width: 351px;
+  height: 189px;
+  padding-left: 10px;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 20px 10px;
+}
+
+.bot-img {
+  margin-left: -9px;
+}
+
+.bot-container {
+  display: flex;
+}
+
+.botton-con button {
+  color: #fff;
+  padding: 13px;
+  background-color: #36b37f;
+  border: 0;
+  justify-content: center;
+  font-size: 17px;
+  border-radius: 8px;
+}
+
+.botton-con {
+  justify-content: center;
+  padding-left: 55px;
+}
+
+.resume {
+  background: #ebf0ee;
+  border: 1px solid #c1c7d0;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin: 20px;
+}
+
+.language-img {
+  padding-left: 90px;
+  margin-top: 90px;
+  color: #344563;
+}
+
+.resume p {
+  width: 337px;
+  height: 32px;
+  margin-left: -12px;
+  padding-top: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 32px;
+  text-align: center;
+  color: #344563;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 15px;
+}
+
+.resume-con ul {
+  display: flex;
+  justify-content: center;
+  margin: 3px;
+  padding: 1px 9px;
+  color: #36b37e;
+}
+
+.resume-con ul li {
+  background-color: #ffff;
+  list-style: none;
+  margin: 3px;
+  padding: 5px;
+  margin-top: 1px;
+  margin-bottom: 50px;
+}
+
+.resume-con1 {
+  margin-top: -40px;
+}
+
+.details {
+  margin: 20px;
+  margin-top: 10px;
+}
+
+.details p {
+  width: 327px;
+  height: 363px;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  flex: none;
+  margin-bottom: 0;
+}
+
+.details input {
+  margin: 10px;
+  padding: 10px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 300px;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.text {
+  width: 304px;
+  background: #fff;
+  height: 100px;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 7px;
+  border: 1px solid #60c095;
+  box-sizing: border-box;
+}
+
+.last-button {
+  text-align: center;
+}
+
+.last-button button {
+  color: #fff;
+  padding: 13px;
+  background-color: #36b37f;
+  border: 0;
+  justify-content: center;
+  font-size: 17px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.last-image {
+  margin: -79px 40px;
+  position: absolute;
+}
+
+.lp {
+  width: 375px;
+  height: 189px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+}
+
+.work-section {
+  display: grid;
 }
