@@ -406,8 +406,6 @@ ul.card-item {
   text-align: center;
   color: #172b4d;
   flex: none;
-  order: 0;
-  flex-grow: 0;
   margin-bottom: 0;
 }
 
