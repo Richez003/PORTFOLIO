@@ -1,4 +1,4 @@
-/* stylelint-disable no-missing-end-of-source-newline */
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap);
 
 .header {
   display: inline-flex;
@@ -61,18 +61,24 @@
   padding-top: 20px;
 }
 
-ul.icon-list {
-  list-style: none;
-  display: inline-flex;
-  gap: 20px;
-  padding-left: 75px;
+.flex-container {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 30px;
+}
+
+.flex-container > div {
+  width: 15px;
+  text-align: center;
+  line-height: 75px;
+  padding-left: 30px;
 }
 
 .dis {
   position: absolute;
   left: 43%;
   right: 25%;
-  padding-top: 25%;
+  padding-top: 30px;
   padding-bottom: 37.5%;
 }
 
@@ -100,21 +106,6 @@ ul.icon-list {
 
 .img5 {
   position: absolute;
-}
-
-.flex-container {
-  display: flex;
-  flex-wrap: nowrap;
-  background-color: dodgerblue;
-}
-
-.flex-container > div {
-  background-color: #f1f1f1;
-  width: 100px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
 }
 
 .card-list {
@@ -193,7 +184,7 @@ ul.card-item {
 
 .potfolio-but {
   color: #fff;
-  padding: 13px;
+  padding: 11px;
   background-color: #36b37f;
   border: 0;
   justify-content: center;
@@ -399,15 +390,15 @@ ul.card-item {
 }
 
 .details p {
-  width: 327px;
-  height: 363px;
-  font-style: normal;
+  font-family: 'inter', sans-serif !important;
   font-size: 40px;
+  font-style: normal;
   line-height: 52px;
+  letter-spacing: 0;
   text-align: center;
   color: #172b4d;
-  flex: none;
-  margin-bottom: 0;
+  margin: 24px 0;
+  font-weight: 700;
 }
 
 .details input {
@@ -451,7 +442,7 @@ ul.card-item {
 }
 
 .last-image {
-  margin: -79px 40px;
+  margin: -79px 290px;
   position: absolute;
 }
 
