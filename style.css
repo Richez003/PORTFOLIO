@@ -62,18 +62,18 @@
 }
 
 .flex-container {
-    display: flex;
-    align-items: flex-start
+  display: flex;
+  align-items: flex-start;
 }
 
 .flex-container > div {
   width: 30px;
-  margin: 0px;
+  margin: 0;
   text-align: center;
   line-height: 75px;
   padding-left: 30px;
-
 }
+
 .dis {
   position: absolute;
   left: 43%;
@@ -390,18 +390,17 @@ ul.card-item {
 }
 
 .details p {
-  font-family: Inter;
-font-size: 40px;
-font-style: normal;
-font-weight: 700;
-line-height: 52px;
-letter-spacing: 0em;
-text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: center;
   width: 327px;
   height: 363px;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
-  margin: 24px 0px;
+  margin: 24px 0;
 }
 
 .details input {
