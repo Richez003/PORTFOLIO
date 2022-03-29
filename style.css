@@ -64,11 +64,11 @@
 .flex-container {
   display: flex;
   align-items: flex-start;
+  margin-left: 30px;
 }
 
 .flex-container > div {
-  width: 30px;
-  margin: 0;
+  width: 15px;
   text-align: center;
   line-height: 75px;
   padding-left: 30px;
@@ -390,17 +390,15 @@ ul.card-item {
 }
 
 .details p {
+  font-family: sans-serif;
   font-size: 40px;
   font-style: normal;
-  font-weight: 700;
   line-height: 52px;
   letter-spacing: 0;
   text-align: center;
-  width: 327px;
-  height: 363px;
   color: #172b4d;
-  flex: none;
   margin: 24px 0;
+  font-weight: 700;
 }
 
 .details input {
