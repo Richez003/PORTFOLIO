@@ -1,5 +1,4 @@
-/* stylelint-disable no-missing-end-of-source-newline */
-
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap);
 .header {
   display: inline-flex;
   justify-content: space-between;
@@ -390,7 +389,7 @@ ul.card-item {
 }
 
 .details p {
-  font-family: sans-serif;
+  font-family: inter;
   font-size: 40px;
   font-style: normal;
   line-height: 52px;
