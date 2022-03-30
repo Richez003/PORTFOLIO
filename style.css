@@ -230,7 +230,6 @@ ul.card-item {
 }
 
 .items ul {
-  display: flex;
   justify-content: center;
   margin: 3px;
   padding: 1px 9px;
@@ -240,7 +239,8 @@ ul.card-item {
   background-color: #ebf0ee;
   list-style: none;
   margin: 3px;
-  padding: 5px;
+  padding: 10px;
+  float: left;
 }
 
 .card-lists {
