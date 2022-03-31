@@ -1,10 +1,12 @@
 @import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap);
 
 .header {
+
   display: inline-flex;
   justify-content: space-between;
   gap: 100px;
 }
+
 
 .nav {
   padding-right: 50px;
@@ -20,6 +22,7 @@
   background-repeat: no-repeat;
   background-color: #fff;
   background-size: contain;
+
 }
 
 .sd {
@@ -455,8 +458,17 @@ ul.card-item {
   line-height: 32px;
   text-align: center;
   color: #42526e;
+
 }
 
-.work-section {
-  display: grid;
+@media screen and (min-width: 720px) {
+  .work-section {
+display: flex;
+width: 100%;
+  }
+  .container-card {
+width: 400px;
+  }
 }
+
+  
