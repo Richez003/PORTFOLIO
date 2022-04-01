@@ -460,15 +460,54 @@ ul.card-item {
   color: #42526e;
 
 }
-
+@media screen and (max-width: 720px) {
+  .navigations {
+    display: none;
+  }
+}
 @media screen and (min-width: 720px) {
   .work-section {
-display: flex;
 width: 100%;
   }
   .container-card {
 width: 400px;
   }
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+  .navigations {
+    display: flex;
+  }
+  .navigation-link {
+    margin: 20px;
+  }
+  .navigation-link a {
+    text-decoration: none;
+  }
+  .h2 {
+    display: none;
+  }
+  .nav {
+    display: none;
+  }
+  .h1,
+  .sd,
+  .prg,
+  .flex-container {
+    padding-left: 40%;
+  }
+  .intro {
+    margin: 0;
+    margin: 0 20%;
+    width: 50%;
+}
+.dis {
+  padding-left: 8%;
+}
+.work-section-2 {
+  display: flex;
+}
 }
 
   
