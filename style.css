@@ -672,8 +672,6 @@ ul.card-item {
     text-align: center;
     color: #172b4d;
     flex: none;
-    order: 0;
-    flex-grow: 0;
   }
 
   .about-me p {
@@ -715,8 +713,6 @@ ul.card-item {
   .details p {
     width: 463px;
     height: 256px;
-    left: 0;
-    top: 0;
     font-family: 'inter', sans-serif !important;
     font-style: normal;
     font-weight: 700;
@@ -726,8 +722,6 @@ ul.card-item {
     align-items: center;
     color: #172b4d;
     flex: none;
-    order: 0;
-    flex-grow: 0;
     margin-left: 105px;
   }
 
