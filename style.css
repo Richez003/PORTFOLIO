@@ -802,3 +802,9 @@ ul.card-item {
     transform: translateY(0);
   }
 }
+.card-lists:hover {
+    transform: translateY(-3rem);
+  }
+.resume:hover {
+  transform: translate(3rem);
+}
