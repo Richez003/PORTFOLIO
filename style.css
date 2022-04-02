@@ -230,8 +230,6 @@ ul.card-item {
 
 .items ul {
   display: flex;
-
-  /* justify-content: center; */
   margin: 3px;
   padding: 1px 9px;
 }
@@ -251,8 +249,6 @@ ul.card-item {
 }
 
 .card-lists h3 {
-  /* text-align: center;
-  font-size: 30px; */
   padding-left: 24px;
 }
 
@@ -286,8 +282,6 @@ ul.card-item {
 .pic4 {
   text-align: end;
   margin-left: 85%;
-
-  /* position: relative; */
 }
 
 .about-me h1 {
@@ -490,7 +484,7 @@ ul.card-item {
   }
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
   .h2 {
     display: none;
   }
@@ -673,9 +667,6 @@ ul.card-item {
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-
-    /* or 130% */
-
     display: flex;
     align-items: center;
     text-align: center;
@@ -737,8 +728,6 @@ ul.card-item {
     flex: none;
     order: 0;
     flex-grow: 0;
-
-    /* margin: 24px 0; */
     margin-left: 105px;
   }
 
@@ -754,6 +743,13 @@ ul.card-item {
   .input {
     display: flex;
     width: 250px;
+    font-family: 'Inter', sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    align-items: center;
+    color: #6b778c;
   }
 
   .details input {
@@ -800,5 +796,9 @@ ul.card-item {
 
   .resume-con ul {
     padding: 1px 1px;
+  }
+
+  .resume-con:hover {
+    transform: translateY(0);
   }
 }

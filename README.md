@@ -6,6 +6,8 @@
 - HTML
 - CSS
 
+## contributor
+freddykaberuka
 
 ## Author
 
