@@ -484,7 +484,7 @@ ul.card-item {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .h2 {
     display: none;
   }
