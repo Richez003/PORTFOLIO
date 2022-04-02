@@ -552,14 +552,7 @@ ul.card-item {
     font-family: 'inter', sans-serif !important;
     text-align: center;
     letter-spacing: 0.37px;
-
-    /* Neutrals/N800 */
-
     color: #172b4d;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -579,9 +572,6 @@ ul.card-item {
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
-
-    /* or 160% */
-
     text-align: center;
     color: #172b4d;
     flex: none;
