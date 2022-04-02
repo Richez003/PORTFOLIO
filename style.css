@@ -795,10 +795,12 @@ ul.card-item {
   .resume-con:hover {
     transform: translateY(0);
   }
-}
-.card-lists:hover {
+
+  .card-lists:hover {
     transform: translateY(-3rem);
   }
-.resume:hover {
-  transform: translate(3rem);
+
+  .resume:hover {
+    transform: translate(3rem);
+  }
 }
