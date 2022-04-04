@@ -484,12 +484,8 @@ ul.card-item {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .h2 {
-    display: none;
-  }
-
-  .container-flex {
     display: none;
   }
 
@@ -770,11 +766,11 @@ ul.card-item {
 
   .flex-container1 {
     display: flex;
-    width: 15px;
     text-align: center;
     line-height: 75px;
     gap: 20px;
-    margin-left: 42%;
+    margin-left: 45%;
+    align-items: center;
   }
 
   .last-frame {
@@ -802,5 +798,10 @@ ul.card-item {
 
   .resume:hover {
     transform: translate(3rem);
+  }
+
+  .container-flex {
+    align-items: center;
+    margin-left: -8%;
   }
 }
