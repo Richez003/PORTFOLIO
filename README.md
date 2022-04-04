@@ -7,10 +7,12 @@
 - CSS
 
 ## contributor
-freddykaberuka
+**freddykaberuka**
+
+## live Demo
+Feel free to check the: [Portfolio-link](https://richez003.github.io/PORTFOLIO/).
 
 ## Author
-
 👤 **Richard Friday**
 
 - GitHub: [@Richez003](https://github.com/Richez003)
