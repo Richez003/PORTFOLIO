@@ -59,7 +59,7 @@
   line-height: 28px;
   text-align: center;
   color: #172b4d;
-  padding-top: 0px;
+  padding-top: 0;
 }
 
 .container-flex {
@@ -76,7 +76,7 @@
 }
 
 .dis {
- padding-left: 165px;
+  padding-left: 165px;
 }
 
 .h1 {
@@ -268,7 +268,6 @@ ul.card-item {
   width: 351px;
   font-family: 'inter', sans-serif !important;
 }
-
 
 .indicator {
   text-align: center;
@@ -465,8 +464,6 @@ ul.card-item {
     display: none;
   }
 
-  
-  
   .image5 {
     display: none;
   }
@@ -556,7 +553,6 @@ ul.card-item {
     flex-grow: 0;
   }
 
-
   .sd {
     color: green;
   }
@@ -580,8 +576,8 @@ ul.card-item {
   }
 
   .dis {
-  margin-left: -135px;
-  margin-top: 30px;
+    margin-left: -135px;
+    margin-top: 30px;
   }
 
   .card-sections {
@@ -658,7 +654,6 @@ ul.card-item {
   .container-card {
     margin: 20px;
   }
-
 
   .about-me h2 {
     width: 447px;
@@ -808,17 +803,12 @@ ul.card-item {
   }
 
   .container-flex {
-    align-items: center;
-    margin-left: -8%;
+    display: none;
   }
 
- .container-flex {
-   display:none;
- }
-
- .flex-container2 {
-   display: flex;
-   gap: 20px;
-   padding-left: 42%;
- }
+  .flex-container2 {
+    display: flex;
+    gap: 20px;
+    padding-left: 42%;
+  }
 }
