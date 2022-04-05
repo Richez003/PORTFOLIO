@@ -16,7 +16,7 @@
 .intro {
   background-image: url(./images/Backgroung.png);
   height: 772px;
-  margin: 0 8px;
+  margin: 0 -8px;
   background-repeat: no-repeat;
   background-color: #fff;
   background-size: contain;
@@ -29,6 +29,8 @@
   font-family: 'Inter', sans-serif !important;
   width: 327px;
   text-align: center;
+  margin-left: 22px;
+  margin-top: -23px;
 }
 
 .h2 {
@@ -49,7 +51,7 @@
 .prg {
   width: 327px;
   height: 164px;
-  padding-left: 7px;
+  padding-left: 23px;
   font-family: 'Inter', sans-serif !important;
   font-style: normal;
   font-weight: 400;
@@ -57,13 +59,13 @@
   line-height: 28px;
   text-align: center;
   color: #172b4d;
-  padding-top: 20px;
+  padding-top: 0;
 }
 
 .container-flex {
   display: flex;
   align-items: flex-start;
-  margin-left: 30px;
+  margin-left: 65px;
 }
 
 .container-flex > div {
@@ -74,11 +76,7 @@
 }
 
 .dis {
-  position: absolute;
-  left: 43%;
-  right: 25%;
-  padding-top: 30px;
-  padding-bottom: 37.5%;
+  padding-left: 165px;
 }
 
 .h1 {
@@ -87,7 +85,7 @@
   width: 287px;
   text-align: center;
   font-family: 'inter', sans-serif !important;
-  padding-left: 12px;
+  padding-left: 35px;
 }
 
 .bg2 {
@@ -184,7 +182,7 @@ ul.card-item {
 .potfolio-but {
   color: #fff;
   padding: 11px;
-  background-color: #36b37f;
+  background-color: #008552;
   border: 0;
   justify-content: center;
   font-size: 17px;
@@ -192,17 +190,17 @@ ul.card-item {
 }
 
 .potfolio-but:hover {
-  background: #bfebca;
+  background: #01380f;
   color: #fff;
 }
 
 .potfolio-but:active {
-  background: #008552;
-  color: #fff;
+  background: #0be252;
+  color: rgb(15, 13, 13);
 }
 
 .potfolio-but:disabled {
-  background: #36b37f;
+  background: #037920;
   color: #fff;
 }
 
@@ -263,10 +261,12 @@ ul.card-item {
   border-radius: 8px;
 }
 
-.card-sections h1 {
+.card-sections h2 {
   font-size: 50px;
   text-align: center;
   color: #172b4d;
+  width: 351px;
+  font-family: 'inter', sans-serif !important;
 }
 
 .indicator {
@@ -284,10 +284,11 @@ ul.card-item {
   margin-left: 85%;
 }
 
-.about-me h1 {
+.about-me h2 {
   text-align: center;
   margin-top: -60px;
   font-size: 50px;
+  font-family: 'inter', sans-serif !important;
 }
 
 .about-me p {
@@ -475,6 +476,10 @@ ul.card-item {
     display: none;
   }
 
+  .flex-container2 {
+    display: none;
+  }
+
   .illustrator {
     display: none;
   }
@@ -571,7 +576,8 @@ ul.card-item {
   }
 
   .dis {
-    margin-left: 50px;
+    margin-left: -135px;
+    margin-top: 30px;
   }
 
   .card-sections {
@@ -579,7 +585,7 @@ ul.card-item {
     margin: 10px;
   }
 
-  .card-sections h1 {
+  .card-sections h2 {
     height: 15px;
     padding-left: 37%;
     font-family: 'inter', sans-serif !important;
@@ -649,11 +655,7 @@ ul.card-item {
     margin: 20px;
   }
 
-  .flex-container {
-    margin-left: -50px;
-  }
-
-  .about-me h1 {
+  .about-me h2 {
     width: 447px;
     height: 48px;
     padding-left: 550px;
@@ -769,7 +771,7 @@ ul.card-item {
     text-align: center;
     line-height: 75px;
     gap: 20px;
-    margin-left: 45%;
+    margin-left: -6%;
     align-items: center;
   }
 
@@ -801,7 +803,12 @@ ul.card-item {
   }
 
   .container-flex {
-    align-items: center;
-    margin-left: -8%;
+    display: none;
+  }
+
+  .flex-container2 {
+    display: flex;
+    gap: 20px;
+    padding-left: 42%;
   }
 }
