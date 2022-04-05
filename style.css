@@ -182,7 +182,7 @@ ul.card-item {
 .potfolio-but {
   color: #fff;
   padding: 11px;
-  background-color: #36b37f;
+  background-color: #008552;
   border: 0;
   justify-content: center;
   font-size: 17px;
@@ -190,17 +190,17 @@ ul.card-item {
 }
 
 .potfolio-but:hover {
-  background: #bfebca;
+  background: #01380f;
   color: #fff;
 }
 
 .potfolio-but:active {
-  background: #008552;
-  color: #fff;
+  background: #07b641;
+  color: rgb(15, 13, 13);
 }
 
 .potfolio-but:disabled {
-  background: #36b37f;
+  background: #037920;
   color: #fff;
 }
 
