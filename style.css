@@ -570,7 +570,6 @@ ul.card-item {
   }
 }
 
-
 @media screen and (min-width: 789px) {
   .h2 {
     display: none;
@@ -640,8 +639,7 @@ ul.card-item {
   }
 
   .sd {
-    color: #36B37E;
-
+    color: #36b37e;
   }
 
   .prg {
@@ -665,11 +663,10 @@ ul.card-item {
   .dis {
     margin-left: -135px;
     margin-top: 30px;
-
-   }
+  }
 
   .card-sections {
-    align-items: center; */
+    align-items: center;
   }
 
   .card-sections h2 {
@@ -683,7 +680,6 @@ ul.card-item {
     display: flex;
     color: #172b4d;
     margin-top: 250px;
- 
   }
 
   .indicator {
