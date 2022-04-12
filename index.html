@@ -8,16 +8,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="header">
+    
         <h2 class="h2"><a>Welcome</a></h2>
-        <nav class="nav-link">
-            <div class="navigations">
-                <div class="navigation-link"><a href="">Portofolio</a></div>
-                <div class="navigation-link"><a href="">About</a></div>
-                <div class="navigation-link"><a href="">Contact</a></div>
+    <div class="hamburger" onclick="toggleMobile(this)">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+</div>
+
+            <div class="mobile-menu">
+                <div class="links"><a href="#header">Portofolio</a></div>
+                <div class="links"><a href="#about-me">About</a></div>
+                <div class="links"><a href="#Contact">Contact</a></div>
+                <span class="close-menu">&times;</span>
             </div>
-            <img class="nav" src="./images/Union.png" alt="">
-        </nav>
+            <nav class="nav-link">
+                <div class="navigations">   
+                    <div class="navigation-link"><a href="">Portofolio</a></div>
+                    <div class="navigation-link"><a href="">About</a></div>
+                    <div class="navigation-link"><a href="">Contact</a></div>
+                </div> 
+            </nav>
+            
     </header>
     <section class="intro">
         <h1 class="h1">
@@ -191,7 +204,7 @@
 </div>
 </section>
 
-                <section class="about-me">
+                <section class="about-me" id="about-me">
                     <div> 
           <div> 
                <a href="#"><img src="./images/Group2.png" alt="null" class="pic3"></a>
@@ -300,7 +313,7 @@
                     <button type="submit" class="potfolio-but">Get in Touch</button>
                 </div>
             </form>
-            <div class="container-flex">
+            <div class="container-flex" id="contact">
                 <div><a href="https://twitter.com/richardfriday14"><img src="./images/twitter.png" alt="twitter"></a></div>
                 <div><a href="https://www.linkedin.com/in/richard-friday-54980718a"><img src="./images/Linkedin.png" alt="linkedin"></a></div>
                 <div><a><img src="./images/medium.png" alt="medium"></a></div>
@@ -328,6 +341,7 @@
                     <div><a><img src="./images/medium.png" alt="medium"></a></div>
                     <div><a href="https://github.com/Richez003"><img src="./images/github.png" alt="github"></a></div>
                     <div><a href="https://angel.co/jobs?ref=onboarding"><img src="./images/angellist.png" alt="angellist"></a></div>
-        </div>         
+        </div>   
+    <script src="main.js"></script>
     </body>
     </Html>
