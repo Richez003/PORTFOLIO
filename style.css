@@ -840,7 +840,7 @@ ul.card-item {
     top: 12px;
     font-family: 'inter', sans-serif !important;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 501;
     font-size: 17px;
     line-height: 24px;
     display: flex;
@@ -895,7 +895,7 @@ ul.card-item {
   .flex-container2 {
     display: flex;
     gap: 20px;
-    padding-left: 42%;
+    padding-left: 43%;
   }
 
   .close-menu {
