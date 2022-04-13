@@ -6,7 +6,7 @@
   gap: 100px;
 }
 
-.links a {
+.link a {
   text-decoration: none;
   color: #3a4a42;
 }
@@ -52,6 +52,10 @@
   width: 75%;
   height: 143%;
   list-style: none;
+}
+
+#contact {
+  display: flex;
 }
 
 .mobile-menu div {
@@ -570,7 +574,7 @@ ul.card-item {
   }
 }
 
-@media screen and (min-width: 789px) {
+@media screen and (min-width: 768px) {
   .h2 {
     display: none;
   }
@@ -907,7 +911,7 @@ ul.card-item {
     display: none;
   }
 
-  .links {
+  .link {
     display: none;
   }
 }
