@@ -8,16 +8,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="header">
+    
         <h2 class="h2"><a>Welcome</a></h2>
-        <nav class="nav-link">
-            <div class="navigations">
-                <div class="navigation-link"><a href="">Portofolio</a></div>
-                <div class="navigation-link"><a href="">About</a></div>
-                <div class="navigation-link"><a href="">Contact</a></div>
+    <div class="hamburger" onclick="toggleMobile(this)">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+</div>
+
+            <div class="mobile-menu">
+                <div class="link"><a href="#header">Portofolio</a></div>
+                <div class="link"><a href="#about-me1">About</a></div>
+                <div class="link"><a href="#contact-me">Contact</a></div>
+                <span class="close-menu">&times;</span>
             </div>
-            <img class="nav" src="./images/Union.png" alt="">
-        </nav>
+            <nav class="nav-link">
+                <div class="navigations">   
+                    <div class="navigation-link"><a href="">Portofolio</a></div>
+                    <div class="navigation-link"><a href="">About</a></div>
+                    <div class="navigation-link"><a href="">Contact</a></div>
+                </div> 
+            </nav>
+            
     </header>
     <section class="intro">
         <h1 class="h1">
@@ -191,7 +204,7 @@
 </div>
 </section>
 
-                <section class="about-me">
+                <section class="about-me" id="about-me1">
                     <div> 
           <div> 
                <a href="#"><img src="./images/Group2.png" alt="null" class="pic3"></a>
@@ -280,7 +293,7 @@
                     </div>
                 </div>
             </section>
-                <section class="details">
+                <section class="details"  id="contact-me">
                 
                     <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
                 
@@ -328,6 +341,7 @@
                     <div><a><img src="./images/medium.png" alt="medium"></a></div>
                     <div><a href="https://github.com/Richez003"><img src="./images/github.png" alt="github"></a></div>
                     <div><a href="https://angel.co/jobs?ref=onboarding"><img src="./images/angellist.png" alt="angellist"></a></div>
-        </div>         
+        </div>   
+    <script src="main.js"></script>
     </body>
     </Html>
