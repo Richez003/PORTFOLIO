@@ -25,27 +25,27 @@
 }
 
 .mobileBox {
-  width: 393px;
+  width: 508px;
   height: 72%;
   background-color: white;
   border-radius: 10px;
-  margin-top: -10%;
-  margin-left: 27px;
+  margin-top: -2%;
+  margin-left: 8px;
   padding: 0 0 20px 0;
 }
 
 .mobilepic {
   padding-left: 14px;
   padding-top: 14px;
-  width: 367px;
+  width: 480px;
 }
 
 .mobiletex {
   padding-left: 13px;
-  width: 338px;
-  font-size: 32px;
+  width: 473px;
+  font-size: 36px;
   font-family: 'Inter', sans-serif !important;
-  margin-top: 2px;
+  margin-top: 12px;
 }
 
 .mobileBox ul {
@@ -56,7 +56,7 @@
   gap: 12px;
   padding-left: 14px;
   color: #344563;
-  margin-top: 25px;
+  margin-top: 41px;
 }
 
 .mobileBox ul li {
@@ -66,20 +66,22 @@
   border-radius: 8px;
   justify-content: center;
   justify-items: center;
-  font-size: 18px;
+  font-size: 23px;
   font-style: normal;
   font-weight: 600;
   line-height: 32px;
   align-items: center;
   font-family: 'inter', sans-serif !important;
   letter-spacing: 0.03em;
+  padding: 20px;
 }
 
 .mobilebut {
-  padding-left: 28px;
-  margin-top: 24px;
+  padding-left: 34px;
+  margin-top: 63px;
   gap: 10px;
   justify-content: space-between;
+
 }
 
 .mobilebut button {
@@ -87,41 +89,42 @@
   font-family: 'inter', sans-serif !important;
   border: none;
   border-radius: 5px;
-  font-size: 24px;
+  font-size: 32px;
   line-height: 55px;
   display: inline;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
-  padding: 6px;
+  padding: 15px;
+  border-radius: 2px;
 }
 
 .closeMobile {
   display: flex;
   position: absolute;
-  margin-left: 70%;
-  margin-top: 25px;
+  margin-left: 65%;
+  margin-top: 22px;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 48px;
   font-family: 'Inter', sans-serif !important;
   color: white;
 }
 
 .mobileBox p {
-  width: 362px;
+  width: 453px;
   height: auto;
   padding-left: 17px;
   font-family: 'Inter', sans-serif !important;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
+  font-size: 24px;
+  line-height: 24px;
   color: #344563;
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 12px 0;
+  margin: 34px 0;
   padding-top: 14px;
 }
 
@@ -639,7 +642,6 @@ ul.card-item {
 
 .last-image {
   margin: -79px 290px;
-  position: absolute;
 }
 
 .lp {
