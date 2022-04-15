@@ -3,7 +3,6 @@
 .header {
   display: inline-flex;
   justify-content: space-between;
-  gap: 100px;
 }
 
 .link a {
@@ -21,31 +20,31 @@
   top: 0%;
   align-items: center;
   justify-content: center;
-  margin-left: -55px;
+  margin-left: -8px;
 }
 
 .mobileBox {
-  width: 508px;
-  height: 72%;
+  width: 393px;
+  height: 81%;
   background-color: white;
   border-radius: 10px;
-  margin-top: -2%;
-  margin-left: 8px;
+  margin-top: -1%;
+  margin-left: 2px;
   padding: 0 0 20px 0;
 }
 
 .mobilepic {
   padding-left: 14px;
   padding-top: 14px;
-  width: 480px;
+  width: 367px;
 }
 
 .mobiletex {
   padding-left: 13px;
-  width: 473px;
-  font-size: 36px;
+  width: 338px;
+  font-size: 32px;
   font-family: 'Inter', sans-serif !important;
-  margin-top: 12px;
+  margin-top: 2px;
 }
 
 .mobileBox ul {
@@ -56,7 +55,7 @@
   gap: 12px;
   padding-left: 14px;
   color: #344563;
-  margin-top: 41px;
+  margin-top: 25px;
 }
 
 .mobileBox ul li {
@@ -66,22 +65,20 @@
   border-radius: 8px;
   justify-content: center;
   justify-items: center;
-  font-size: 23px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: 32px;
   align-items: center;
   font-family: 'inter', sans-serif !important;
   letter-spacing: 0.03em;
-  padding: 20px;
 }
 
 .mobilebut {
-  padding-left: 34px;
-  margin-top: 63px;
+  padding-left: 28px;
+  margin-top: 24px;
   gap: 10px;
   justify-content: space-between;
-
 }
 
 .mobilebut button {
@@ -89,42 +86,41 @@
   font-family: 'inter', sans-serif !important;
   border: none;
   border-radius: 5px;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 55px;
   display: inline;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
-  padding: 15px;
-  border-radius: 2px;
+  padding: 6px;
 }
 
 .closeMobile {
   display: flex;
   position: absolute;
-  margin-left: 65%;
-  margin-top: 22px;
+  margin-left: 80%;
+  margin-top: 25px;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 32px;
   font-family: 'Inter', sans-serif !important;
   color: white;
 }
 
 .mobileBox p {
-  width: 453px;
+  width: 362px;
   height: auto;
   padding-left: 17px;
   font-family: 'Inter', sans-serif !important;
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 21px;
   color: #344563;
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 34px 0;
+  margin: 12px 0;
   padding-top: 14px;
 }
 
@@ -133,6 +129,7 @@
   display: table-column;
   margin-top: 24px;
   cursor: pointer;
+  margin-left: 140px;
 }
 
 .hamburger div {
@@ -641,7 +638,8 @@ ul.card-item {
 }
 
 .last-image {
-  margin: -79px 290px;
+  /* margin: -79px 290px;
+  position: fixed; */
 }
 
 .lp {
@@ -835,6 +833,7 @@ ul.card-item {
 
   .last-image {
     display: none;
+    position: fixed;
   }
 
   .nav {
