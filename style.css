@@ -13,32 +13,31 @@
 
 .mobilePop {
   backdrop-filter: blur(12px);
-  height: 106%;
-  width: 82%;
+  height: 100%;
+  width: 100%;
   background: #c1c7d0;
   display: none;
   position: fixed;
-  top: 4%;
+  top: 0%;
   align-items: center;
   justify-content: center;
-  margin-top: -51px;
-  overflow: auto;
+  margin-left: -55px;
 }
 
 .mobileBox {
-  width: 350px;
-  height: 795px;
+  width: 393px;
+  height: 72%;
   background-color: white;
   border-radius: 10px;
-  position: fixed;
-  margin-top: -66%;
-  margin-left: 8px;
+  margin-top: -10%;
+  margin-left: 27px;
+  padding: 0 0 20px 0;
 }
 
 .mobilepic {
   padding-left: 14px;
   padding-top: 14px;
-  width: 319px;
+  width: 367px;
 }
 
 .mobiletex {
@@ -57,7 +56,7 @@
   gap: 12px;
   padding-left: 14px;
   color: #344563;
-  margin-top: -13px;
+  margin-top: 25px;
 }
 
 .mobileBox ul li {
@@ -77,9 +76,10 @@
 }
 
 .mobilebut {
-  position: absolute;
-  justify-items: end;
-  padding-left: 18px;
+  padding-left: 28px;
+  margin-top: 24px;
+  gap: 10px;
+  justify-content: space-between;
 }
 
 .mobilebut button {
@@ -88,19 +88,20 @@
   border: none;
   border-radius: 5px;
   font-size: 24px;
-  line-height: 35px;
+  line-height: 55px;
   display: inline;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
+  padding: 6px;
 }
 
 .closeMobile {
   display: flex;
   position: absolute;
-  margin-left: 84%;
-  margin-top: 20px;
+  margin-left: 70%;
+  margin-top: 25px;
   font-weight: bold;
   font-size: 32px;
   font-family: 'Inter', sans-serif !important;
@@ -108,19 +109,20 @@
 }
 
 .mobileBox p {
-  width: 311px;
-  height: 313px;
+  width: 362px;
+  height: auto;
   padding-left: 17px;
   font-family: 'Inter', sans-serif !important;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 21px;
   color: #344563;
   flex: none;
   order: 0;
   flex-grow: 0;
   margin: 12px 0;
+  padding-top: 14px;
 }
 
 .hamburger {
@@ -721,6 +723,7 @@ ul.card-item {
     width: 578px;
     height: 581px;
     background-color: white;
+    position: fixed;
   }
 
   .railsB ul {
