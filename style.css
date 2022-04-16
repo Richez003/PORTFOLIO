@@ -387,7 +387,8 @@ ul.card-item {
   justify-content: center;
   font-size: 17px;
   border-radius: 8px;
-  margin-left: 35%;
+  margin-left: 29%;
+  margin-top: 45px;
 }
 
 .submit :hover {
@@ -403,8 +404,8 @@ ul.card-item {
 .submit:disabled {
   background: #037920;
   color: #fff;
-  
 }
+
 .potfolio-but {
   color: #fff;
   padding: 11px;
@@ -1081,9 +1082,9 @@ ul.card-item {
     margin-left: 105px;
   }
 
-  #form-style {
-    margin-left: 36%;
-    margin-top: -219px;
+  .form-style {
+    margin-left: 60%;
+    margin-top: -233px;
   }
 
   .text {
@@ -1192,5 +1193,35 @@ ul.card-item {
     display: none;
   }
 
-  
+  .button {
+    justify-content: center;
+    align-items: center;
+    margin: 19px 100px;
+  }
+
+  .submit {
+    color: #fff;
+    padding: 11px;
+    background-color: #008552;
+    border: 0;
+    justify-content: center;
+    font-size: 17px;
+    border-radius: 8px;
+    margin-left: 0%;
+  }
+
+  .submit :hover {
+    background: #01380f;
+    color: #fff;
+  }
+
+  .submit:active {
+    background: #07b641;
+    color: rgb(15, 13, 13);
+  }
+
+  .submit:disabled {
+    background: #037920;
+    color: #fff;
+  }
 }

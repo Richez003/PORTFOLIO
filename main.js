@@ -114,33 +114,6 @@ closeMe2.forEach((link) => link.addEventListener('click', () => {
   popUp1.style.display = 'none';
 }));
 
-function disableScroll() {
-  // Get the current page scroll position
-  const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-  const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
-
-  // if any scroll is attempted, set this to the previous value
-  window.onscroll = function scroller() {
-    window.scrollTo(scrollLeft, scrollTop);
-  };
-
-// const email = document.getElementById('email');
-// const form = document.getElementById('form-style');
-// const displayMsg = document.getElementById('#form-message-error');
-// displayMsg.innerHTML = 'Your email address should be in lowercase';
-// form.addEventListener('submit', (event) => {
-//   if (email.value !== email.value.toLowerCase()) {
-//     event.preventDefault();
-//     displayMsg.style.visibility = 'visible';
-//     displayMsg.classList.add('error-msg');
-//     setTimeout(() => {
-//       displayMsg.style.visibility = 'hidden';
-//     }, 3000);
-//   } else {
-//     displayMsg.style.visibility = 'hidden';
-//   }
-// });
-
 const contactForm = document.querySelector('.form-style');
 const emailInput = document.querySelector('.email');
 const validationMessage = document.querySelector('.error');
@@ -155,31 +128,15 @@ contactForm.addEventListener('submit', (event) => {
 
 const firstName = document.getElementById('name1');
 const lastName = document.getElementById('name2');
-const messageInput = document.getElementById('message');
- 
+const messageInput = document.getElementById('text');
+
 function checkLocalStorage() {
-    const values = localStorage.getItem('input');
+  const values = localStorage.getItem('input');
 
-    let input = {
-      firstName: '',
-      lastName: '',
-      email: '',
-      message: '',};
-
-    if (values) {
-      input = JSON.parse(values);
-     firstName.value = input.name1;
-      lastName.value = input.name2;
-      emailInput.value = input.email;
-      messageInput.value = input.message;
-
-    } else {
-      localStorage.setItem('input', JSON.stringify(input));
-    }
-  }
-  function updateLocalStorage(e) {
-    input = { ...input, [e.target.name]: e.target.value };
-    const serialized = JSON.stringify(input);
-    localStorage.setItem('input', serialized);
-  }
+  let input = {
+    firstName: '',
+    lastName: '',
+    email: '',
+    message: '',
+  };
 }
