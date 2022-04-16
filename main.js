@@ -113,3 +113,30 @@ openMenu3.forEach((link) => link.addEventListener('click', () => {
 closeMe2.forEach((link) => link.addEventListener('click', () => {
   popUp1.style.display = 'none';
 }));
+
+const contactForm = document.querySelector('.form-style');
+const emailInput = document.querySelector('.email');
+const validationMessage = document.querySelector('.error');
+contactForm.addEventListener('submit', (event) => {
+  const strInput = emailInput.value;
+  if (/[A-Z]/.test(strInput)) {
+    validationMessage.innerHTML = 'Your email address should not contain upper case letters';
+    validationMessage.classList.add('shake');
+    event.preventDefault();
+  }
+});
+
+const firstName = document.getElementById('name1');
+const lastName = document.getElementById('name2');
+const messageInput = document.getElementById('text');
+
+function checkLocalStorage() {
+  const values = localStorage.getItem('input');
+
+  let input = {
+    firstName: '',
+    lastName: '',
+    email: '',
+    message: '',
+  };
+}

@@ -10,6 +10,12 @@
   color: #3a4a42;
 }
 
+.error {
+  color: red;
+  font-family: 'Inter', sans-serif !important;
+  font-size: 24px;
+}
+
 .mobilePop {
   backdrop-filter: blur(12px);
   height: 100%;
@@ -373,6 +379,33 @@ ul.card-item {
   margin: 19px 100px;
 }
 
+.submit {
+  color: #fff;
+  padding: 11px;
+  background-color: #008552;
+  border: 0;
+  justify-content: center;
+  font-size: 17px;
+  border-radius: 8px;
+  margin-left: 29%;
+  margin-top: 45px;
+}
+
+.submit :hover {
+  background: #01380f;
+  color: #fff;
+}
+
+.submit:active {
+  background: #07b641;
+  color: rgb(15, 13, 13);
+}
+
+.submit:disabled {
+  background: #037920;
+  color: #fff;
+}
+
 .potfolio-but {
   color: #fff;
   padding: 11px;
@@ -638,8 +671,8 @@ ul.card-item {
 }
 
 .last-image {
-  /* margin: -79px 290px;
-  position: fixed; */
+  margin: -79px 324px;
+  position: absolute;
 }
 
 .lp {
@@ -1050,8 +1083,8 @@ ul.card-item {
   }
 
   .form-style {
-    margin-left: 36%;
-    margin-top: -219px;
+    margin-left: 60%;
+    margin-top: -233px;
   }
 
   .text {
@@ -1158,5 +1191,37 @@ ul.card-item {
 
   .mobile {
     display: none;
+  }
+
+  .button {
+    justify-content: center;
+    align-items: center;
+    margin: 19px 100px;
+  }
+
+  .submit {
+    color: #fff;
+    padding: 11px;
+    background-color: #008552;
+    border: 0;
+    justify-content: center;
+    font-size: 17px;
+    border-radius: 8px;
+    margin-left: 0%;
+  }
+
+  .submit :hover {
+    background: #01380f;
+    color: #fff;
+  }
+
+  .submit:active {
+    background: #07b641;
+    color: rgb(15, 13, 13);
+  }
+
+  .submit:disabled {
+    background: #037920;
+    color: #fff;
   }
 }
