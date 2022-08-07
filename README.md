@@ -10,7 +10,7 @@
 **freddykaberuka**
 
 ## live Demo
-Feel free to check the: [Portfolio-link](https://richez003.github.io/PORTFOLIO/).
+Feel free to check the: [Portfolio-link](https://tourmaline-croissant-4be38b.netlify.app//).
 
 ## Author
 👤 **Richard Friday**
