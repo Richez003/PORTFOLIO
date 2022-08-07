@@ -1,55 +1,30 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# PORTFOLIO
 
-# Portfolio
-
-> This is my Microverse Project on my Portfolio.
-
+> Setting up a portfolio desktop page.
 ## Built With
 
 - HTML
 - CSS
 
-## Live Demo
+## contributor
+**freddykaberuka**
 
-Visit comming soom...... to view online
+## live Demo
+Feel free to check the: [Portfolio-link](https://richez003.github.io/PORTFOLIO/).
 
-## Getting Started
+## Author
+👤 **Richard Friday**
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- GitHub: [@Richez003](https://github.com/Richez003)
+- Twitter: [@richardfriday14](https://twitter.com/richardfriday14)
+- LinkedIn: [@LinkedIn](https://www.linkedin.com/in/richard-friday-54980718a)
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-
-- Web Browser
-- VS Code
-
-### Install
-
-1. Clone the repo or download the repo files
-
-> git clone https://github.com/ppmarq1/Portfolio-Project.git
-
-2. Open folder or zip in VS Code
-
-3. Run the HTML file (index.html) on Browser locally or with Live Server
-
-## Authors
-
-👤 **Pedro Marques**
-
-- GitHub: https://github.com/ppmarq1
-- Twitter: https://twitter.com/ppmarq1
-- LinkedIn: https://br.linkedin.com/in/pedroalmeidamarques/
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ppmarq1/Portfolio-Project/issues).
+Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
